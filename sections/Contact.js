@@ -1,6 +1,6 @@
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
-import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { AiFillBehanceCircle, AiFillInstagram, AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai"
 import { BiUserCircle } from "react-icons/bi"
 import { BsFacebook } from "react-icons/bs"
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
@@ -21,7 +21,7 @@ const Contact = () => {
               <div className='contact-deatils'>
                 <div className='box'>
                   <FiHeadphones size={30} className='icons' />
-                  <h3>+03065897054</h3>
+                  <h3>+923065897054</h3>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className='box'>
@@ -36,7 +36,7 @@ const Contact = () => {
                 </div>
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
-                  <h3>career@migolab.com</h3>
+                  <h3>team@migolab.com</h3>
                   <span>Career at migolab</span>
                 </div>
               </div>
@@ -45,7 +45,7 @@ const Contact = () => {
                   <BsFacebook size={25} />
                 </li>
                 <li className='icon'>
-                  <AiFillBehanceCircle size={25} />
+                  <AiFillTwitterCircle size={25} />
                 </li>
                 <li className='icon'>
                   <AiFillInstagram size={25} />

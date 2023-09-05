@@ -31,7 +31,7 @@ export const expertise = [
   {
     id: 2,
     title: "Appointment Booking App",
-    cover: "../images/e2.jpg",
+    cover: "../images/appointo.png",
     desc: [{ text: "Dental Clinics" }, { text: "MedSPAs" }, { text: "Mental health clinics" }],
   },
   {
@@ -43,7 +43,7 @@ export const expertise = [
   {
     id: 4,
     title: "Lead Generation Chatbot",
-    cover: "../images/e4.jpg",
+    cover: "../images/leadgen.png",
     desc: [{ text: "Dental Clinics" }, { text: "MedSPAs" }, { text: "Mental health clinics" }],
   },
 ]
@@ -124,30 +124,30 @@ export const brand = [
 export const blogdata = [
   {
     id: 1,
-    title: "Ligula vel urna accumsan placerat",
+    title: "The Future of AI-Powered Conversational Chatbots",
     cover: "../images/b1.webp",
     catgeory: "INDUSTRY",
     date: "JANUARY 12, 2023",
   },
   {
     id: 2,
-    title: "Don’t underestimate the lorem ipsum dolor amet",
+    title: "Unlocking the Secrets of LLAMA's 2 Model",
     cover: "../images/b2.jpg",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 20, 2023",
   },
   {
     id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
+    title: "Why are Chatbots Important to your Lead Generation Strategy?",
     cover: "../images/b3.jpg",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 9, 2023",
   },
   {
     id: 4,
-    title: "What eleifend posuere tincidunt",
+    title: "How to Leverage Generative AI in Chatbots for SaaS Customer Success",
     cover: "../images/b4.jpg",
-    catgeory: "EVENTS",
+    catgeory: "DISCOVER",
     date: "OCTOBER 8, 2023",
   },
 ]
@@ -155,13 +155,13 @@ export const teamdata = [
   {
     id: 1,
     title: "Mohsin Raz",
-    cover: "../images/mohsin.jpeg",
+    cover: "../images/mkkrr.png",
     post: "Director of Backend Development",
   },
   {
     id: 2,
     title: "Shahzoor Khan",
-    cover: "../images/shshzoor.jpeg",
+    cover: "../images/shahzoork.png",
     post: "Chief of Automation",
   },
   {

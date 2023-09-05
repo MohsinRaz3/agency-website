@@ -13,7 +13,7 @@ const Services = () => {
             <br />
             <Title title='Unique technologies & modern Chatbots approach' className='title-bg' />
           </div>
-          <div className='grid-2 py'>
+          <div className='grid-3 py'>
             {expertise.map((item) => (
               <Card data={item} key={item.id} caption={item.post} show={true} />
             ))}

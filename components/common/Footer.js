@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { TitleLogo } from "./Title"
 import { BsFacebook } from "react-icons/bs"
-import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { AiFillTwitterCircle, AiOutlineWhatsApp, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <h3>+03065897054</h3>
+              <h3> <AiOutlineWhatsApp /> +923065897054</h3>
               <br />
               <button className='button-primary'>Request for quote</button>
             </div>
@@ -67,7 +67,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link href='/'>
-                    <AiFillBehanceCircle size={25} />
+                    <AiFillTwitterCircle size={25} />
                   </Link>
                 </li>
                 <li>
@@ -88,8 +88,7 @@ const Footer = () => {
               <span>© 2023 MIGOLAB. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>migolab</span>
-              <span> &nbsp; | &nbsp; </span>
+              <span> &nbsp;  &nbsp; </span>
               <span>TERMS & CONDITIONS</span>
             </div>
           </div>
