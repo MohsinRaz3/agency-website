@@ -127,7 +127,7 @@ export const blogdata = [
     title: "The Future of AI-Powered Conversational Chatbots",
     cover: "../images/b1.webp",
     catgeory: "INDUSTRY",
-    date: "SEPTEMBER 9, 2023",
+    date: "SEPTEMBER , 2023",
     link: `/`,
     t1: "Understanding AI",
     t2: "Understanding ChatGPT and Conversational AI",
