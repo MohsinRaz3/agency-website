@@ -17,7 +17,7 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <h3> <AiOutlineWhatsApp /> +923065897054</h3>
+              <Link href={"https://shorturl.at/psD47"} > <h3> <AiOutlineWhatsApp /> +923065897054</h3></Link>
               <br />
               <button className='button-primary'>Request for quote</button>
             </div>
@@ -76,7 +76,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
+                  <Link href='https://www.linkedin.com/company/migolab/'>
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
