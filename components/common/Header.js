@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { TitleLogo } from "./Title"
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import { RiMenu4Line } from "react-icons/ri"
@@ -27,15 +26,7 @@ const Header = () => {
             <Link href='/' className={activeLink == "/" ? "activeLink" : "none"}>
               Home
             </Link>
-            {/* <Link href='/agency' className={activeLink == "/agency" ? "activeLink" : "none"}>
-              Agency
-            </Link>
-            <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
-              Team
-            </Link>
-            <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
-              Showcase
-            </Link> */}
+
             <Link href='/services' className={activeLink == "/services" ? "activeLink" : "none"}>
               Services
             </Link>
@@ -46,7 +37,7 @@ const Header = () => {
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact
             </Link>
-            <button className='button-primary'>book a consultation</button>
+            <Link href={"https://calendly.com/migolab/discovery-meeting"}>    <button className='button-primary'>book a consultation</button> </Link>
           </nav>
           <button style={{ cursor: "pointer" }} onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
         </div>

@@ -17,9 +17,9 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <Link href={"https://shorturl.at/psD47"} > <h3> <AiOutlineWhatsApp /> +923065897054</h3></Link>
+              <Link href={"http://bit.ly/migolab"} > <h3> <AiOutlineWhatsApp /> +923065897054</h3></Link>
               <br />
-              <button className='button-primary'>Request for quote</button>
+              <Link href={"https://calendly.com/migolab/discovery-meeting"}>   <button className='button-primary'>Request for quote</button> </Link>
             </div>
             <ul>
               <h3>COMPANY</h3>
