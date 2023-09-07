@@ -4,6 +4,7 @@ import { Title, TitleSm } from "@/components/common/Title"
 import Head from "next/head"
 import { useRouter } from "next/router"
 import React from "react"
+import Image from "next/image"
 
 const SinglePost = () => {
     const router = useRouter()
@@ -24,7 +25,7 @@ const SinglePost = () => {
                             <br />
                             <Title title={post?.title} className='title-bg' />
                             <div className='img py'>
-                                <img src={post?.cover} alt={post?.title} width='100%' height='100%' className='round' />
+                                <Image src={post?.cover} alt={post?.title} width='100%' height='100%' className='round' />
                             </div>
                             <div className='desc'>
                                 <TitleSm title={post?.t1} />

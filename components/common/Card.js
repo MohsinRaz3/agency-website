@@ -1,14 +1,14 @@
 import Link from "next/link"
 import { TitleSm } from "./Title"
 import { HiOutlineArrowRight } from "react-icons/hi"
-
+import Image from "next/image"
 export const Card = ({ data, caption, show, path }) => {
   const blogData = data?.link?.length;
   return (
 
     (blogData <= 1 ? (<div className='card' >
       <div className='card-img'>
-        <img src={data.cover} alt={data.title} />
+        <Image src={data.cover} alt={data.title} />
       </div>
       <div className='card-details'>
         <Link href={`${path}/${data.id}`} className='title-link'>
@@ -33,7 +33,7 @@ export const Card = ({ data, caption, show, path }) => {
       </div>
     </div>) : (<div className='card' >
       <div className='card-img'>
-        <img src={data.cover} alt={data.title} />
+        <Image src={data.cover} alt={data.title} />
       </div>
       <div className='card-details'>
         <Link href={`${data.link}`} className='title-link'>
