@@ -8,7 +8,7 @@ export const Card = ({ data, caption, show, path }) => {
 
     (blogData <= 1 ? (<div className='card' >
       <div className='card-img'>
-        <Image src={data.cover} alt={data.title} />
+        <img src={data.cover} alt={data.title} />
       </div>
       <div className='card-details'>
         <Link href={`${path}/${data.id}`} className='title-link'>
@@ -33,7 +33,7 @@ export const Card = ({ data, caption, show, path }) => {
       </div>
     </div>) : (<div className='card' >
       <div className='card-img'>
-        <Image src={data.cover} alt={data.title} />
+        <img src={data.cover} alt={data.title} />
       </div>
       <div className='card-details'>
         <Link href={`${data.link}`} className='title-link'>
