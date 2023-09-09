@@ -7,6 +7,7 @@ const Blogs = () => {
       <Head>
         <title>Blog - migolab</title>
       </Head>
+
       <Blog />
     </>
   )
