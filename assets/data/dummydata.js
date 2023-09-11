@@ -83,15 +83,24 @@ export const showcase = [
     title: "One-Health",
     catgeory: "Healthcare Chatbot",
     cover: "../images/healthbot.jpg",
-    link: "https://dentcaredoc.netlify.app"
+    link: "https://onehealthdoc.netlify.app/"
+
+  },
+
+  {
+    id: 3,
+    title: "Automaster",
+    cover: "../images/reantacar.png",
+    catgeory: "Automobile",
+    link: "https://automaster.netlify.app/"
 
   },
   {
-    id: 3,
-    title: "Convid",
-    cover: "../images/covind.png",
-    catgeory: "Health chatbot",
-    link: "https://conviddoc.netlify.app"
+    id: 4,
+    title: "Rently",
+    cover: "../images/reenta.jpeg",
+    catgeory: "Automobile",
+    link: "https://rentlyhub.vercel.app/"
 
   }
 ]
