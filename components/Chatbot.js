@@ -17,9 +17,9 @@ const Chatbot = () => {
                 messagingUrl: "https://messaging.botpress.cloud",
                 clientId: "d54665ac-88b8-4a7a-abf6-1998241bc919",
                 botName: "Migolab",
-                avatarUrl: "https://media.licdn.com/dms/image/D4D0BAQFC8aByMjU0wg/company-logo_100_100/0/1694002656072?e=1702512000&v=beta&t=OokxbFNWjaxSxqi2aAa4tDVWbEWej84ya90h7ceU11k",
+                avatarUrl: "https://drive.google.com/file/d/1DcQIMQFmH7KgcMTa9fhR7Z3pzkX5NUPM/view?usp=sharing",
                 lazySocket: true,
-                stylesheet: "https://webchat-styler-css.botpress.app/prod/0098cc7e-42ec-43ba-99bf-2526260ea915/v63107/style.css",
+                stylesheet: "https://webchat-styler-css.botpress.app/prod/0098cc7e-42ec-43ba-99bf-2526260ea915/v14761/style.css",
                 frontendVersion: "v1",
                 showPoweredBy: false
             })
